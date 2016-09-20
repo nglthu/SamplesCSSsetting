@@ -1,0 +1,48 @@
+img{
+width:100%;
+padding-top:20px;
+}
+*{
+	width:100%;
+}
+button{
+	min-height: 48px;
+	min-width: 48px;
+}
+@media screen and (min-width:1px) and (max-width:400px){
+	h4{
+		background-color: lightpink;
+		color:red;
+		font-family: serif;
+	}
+
+}
+@media screen and (min-width:401px) and (max-width:599px){
+	h4{
+		
+		background-color:lightgreen;
+	color:green;
+	}
+}
+@media screen and (min-width:1052px){
+	h4{background-color: lightblue;
+	color:blue;
+	font-family: Cookie;
+	}
+}
+@media srceen and (min-width:1052px){
+	#breakpoint1{
+		width:30%;
+	}
+	
+	#img{
+		width:100%;
+		align-content: right;
+		background-color: lightgrey;
+	}
+	
+}
+#img{
+	width:50%;
+	align-content: right;
+}

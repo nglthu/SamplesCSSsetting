@@ -9,3 +9,18 @@ button{
 	min-height: 48px;
 	min-width: 48px;
 }
+@media screen and (min-width:1px) and (max-width:400px){
+	h3{
+		background-color: red;
+		color:red;
+	}
+
+}
+@media screen and (min-width:401px)and (max-width:599){
+	h3{background-color:green
+	color:green}
+}
+@media screen and (min-width:600){
+	h3{background-color: blue
+	color:blue}
+}
